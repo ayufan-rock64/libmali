@@ -17,6 +17,12 @@ libmali-rk (1.5-5) testing; urgency=medium
 
  -- Jacob Chen <jacob2.chen@rock-chips.com>  Wed, 29 Sep 2017 15:29:07 +0000
 
+libmali-rk (1.5-4ayufan3) xenial; urgency=medium
+
+  * Fix missing dependencies
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 23:26:12 +0200
+
 libmali-rk (1.5-4ayufan1) xenial; urgency=medium
 
   * Bump version
