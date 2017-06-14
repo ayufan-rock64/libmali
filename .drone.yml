@@ -1,0 +1,25 @@
+pipeline:
+  build:
+    image: ${ARCH}/ubuntu:xenial
+    commands:
+    - apt-get update -y
+    - apt-get build-dep -y $(pwd)
+    - dpkg-buildpackage -b
+
+  github_release:
+    image: plugins/github-release
+    secrets: [ github_token ]
+    files: ../*.deb
+    checksum:
+    - md5
+    - sha1
+    - sha256
+    - sha512
+    prerelease: true
+    when:
+      event: tag
+
+matrix:
+  ARCH:
+  - arm32v7
+  - arm64v8

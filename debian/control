@@ -1,7 +1,19 @@
 Source: libmali-rk
 Priority: optional
-Maintainer: Randy Li <randy.li@rock-chips.com>
-Build-Depends: debhelper (>= 9)
+Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
+Build-Depends:
+    debhelper (>= 9),
+    cmake,
+    dh-exec,
+    libdrm2,
+    libx11-6,
+    libx11-xcb1,
+    libxcb1,
+    libxcb-dri2-0,
+    libxfixes3,
+    libxext6,
+    libxdamage1,
+    libwayland-dev
 Standards-Version: 3.9.5
 Section: libs
 Homepage: http://www.rock-chips.com/
@@ -27,49 +39,102 @@ Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1, libwayland-egl1-mesa
 
 Package: libmali-rk-midgard-t86x-r14p0
-Architecture: armhf
+Architecture: armhf arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
-Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1,
+    libmali-rk-midgard-t86x-r14p0-gbm,
+    libmali-rk-midgard-t86x-r14p0-wayland
 Description: The mali library for Rockchip RK3399 (32bit).
+
+Package: libmali-rk-midgard-t86x-r14p0-gbm
+Architecture: armhf arm64
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1,
+    libmali-rk-midgard-t86x-r14p0,
+    libmali-rk-midgard-t86x-r14p0-wayland
+Description: The mali library for Rockchip RK3399 GBM.
+
+Package: libmali-rk-midgard-t86x-r14p0-wayland
+Architecture: armhf arm64
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1, libwayland-egl1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1, libwayland-egl1,
+    libmali-rk-midgard-t86x-r14p0-gbm,
+    libmali-rk-midgard-t86x-r14p0-wayland
+Description: The mali library for Rockchip RK3399 Wayland.
 
 Package: libmali-rk-midgard-t76x-r14p0-r1p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
-Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1,
+    libmali-rk-midgard-t76x-r14p0-r0p0,
+    libmali-rk-midgard-t76x-r14p0-r0p0-wayland
 Description: The mali library for Rockchip RK3288W.
 
 Package: libmali-rk-midgard-t76x-r14p0-r0p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
-Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1,
+    libmali-rk-midgard-t76x-r14p0-r1p0,
+    libmali-rk-midgard-t76x-r14p0-r0p0-wayland
 Description: The mali library for Rockchip RK3288(not included RK3288W).
 
 Package: libmali-rk-midgard-t76x-r14p0-r0p0-wayland
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
-Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1, libwayland-egl1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1, libwayland-egl1,
+    libmali-rk-midgard-t76x-r14p0-r1p0,
+    libmali-rk-midgard-t76x-r14p0-r0p0
 Description: The mali library for Rockchip RK3288(not included RK3288W).
 
 Package: libmali-rk-utgard-450-r7p0
-Architecture: armhf
+Architecture: armhf arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
-Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
-Description: The mali library for Rockchip RK3328 (32bit).
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1, libmali-rk-utgard-2th-r7p0
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1,
+    libmali-rk-utgard-2th-r7p0,
+    libmali-rk-utgard-450-r7p0-gbm,
+    libmali-rk-utgard-450-r7p0-wayland
+Description: The mali library for Rockchip RK3328.
+
+Package: libmali-rk-utgard-450-r7p0-gbm
+Architecture: armhf arm64
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1,
+    libmali-rk-utgard-2th-r7p0,
+    libmali-rk-utgard-450-r7p0,
+    libmali-rk-utgard-450-r7p0-wayland
+Description: The mali library for Rockchip RK3328 GBM.
+
+Package: libmali-rk-utgard-450-r7p0-wayland
+Architecture: armhf arm64
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1, libwayland-egl1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1, libwayland-egl1,,
+    libmali-rk-utgard-2th-r7p0,
+    libmali-rk-utgard-450-r7p0,
+    libmali-rk-utgard-450-r7p0-gbm
+Description: The mali library for Rockchip RK3328 Wayland.
 
 Package: libmali-rk-utgard-400-r7p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
-Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1
 Description: The mali library for Rockchip RK30 serial.
