@@ -11,6 +11,9 @@ Build-Depends:
     libx11-xcb1,
     libxcb1,
     libxcb-dri2-0,
+    libxfixes3,
+    libxext6,
+    libxdamage1,
 Standards-Version: 3.9.5
 Section: libs
 Homepage: http://www.rock-chips.com/
@@ -32,7 +35,7 @@ Package: libmali-rk-midgard-4th-r9p0
 Architecture: arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa, libmali-rk
 Conflicts: libmali-rk-utgard0-r6p0,
  lib32mali-rk-midgard-4th-r13p0,
  libmali-rk-midgard-r13p0-r0p0,
@@ -46,7 +49,7 @@ Package: lib32mali-rk-midgard-4th-r9p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa, libmali-rk
 Conflicts: libmali-rk-utgard0-r6p0,
  lib32mali-rk-midgard-4th-r13p0,
  libmali-rk-midgard-r13p0-r0p0,
@@ -60,7 +63,7 @@ Package: lib32mali-rk-midgard-4th-r13p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa, libmali-rk
 Conflicts: libmali-rk-utgard0-r6p0,
  libmali-rk-midgard-r13p0-r0p0,
  libmali-rk-midgard-r12p0-r0p0,
@@ -73,7 +76,7 @@ Package: libmali-rk-midgard-r13p0-r0p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa, libmali-rk
 Conflicts: libmali-rk-utgard0-r6p0,
  lib32mali-rk-midgard-4th-r13p0,
  libmali-rk-midgard-4th-r9p0,
@@ -87,7 +90,7 @@ Package: libmali-rk-midgard-r12p0-r0p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa, libmali-rk
 Conflicts: libmali-rk-utgard0-r6p0,
  lib32mali-rk-midgard-4th-r13p0,
  libmali-rk-midgard-4th-r9p0,
@@ -100,11 +103,11 @@ Package: libmali-rk-midgard-r9p0-r1p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa, libmali-rk
 Conflicts: libmali-rk-utgard0-r6p0,
  lib32mali-rk-midgard-4th-r13p0,
  libmali-rk-midgard-4th-r9p0,
-  libmali-rk-midgard-r13p0-r0p0,
+ libmali-rk-midgard-r13p0-r0p0,
  libmali-rk-midgard-r12p0-r0p0,
  libmali-rk-midgard-r9p0-r0p0
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
@@ -114,11 +117,11 @@ Package: libmali-rk-midgard-r9p0-r0p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa, libmali-rk
 Conflicts: libmali-rk-utgard0-r6p0,
  lib32mali-rk-midgard-4th-r13p0,
  libmali-rk-midgard-4th-r9p0,
-  libmali-rk-midgard-r13p0-r0p0,
+ libmali-rk-midgard-r13p0-r0p0,
  libmali-rk-midgard-r12p0-r0p0,
  libmali-rk-midgard-r9p0-r1p0 
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
@@ -129,7 +132,7 @@ Package: lib32mali-rk-utgard-2th-r7p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa, libmali-rk
 Conflicts: libmali-rk-utgard0-r6p0,
  libmali-rk-midgard-r13p0-r0p0,
  libmali-rk-midgard-r12p0-r0p0,
@@ -142,7 +145,7 @@ Package: libmali-rk-utgard0-r6p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa, libmali-rk
 #Conflicts: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
 Conflicts: libmali-rk-midgard-4th-r9p0,
  lib32mali-rk-midgard-4th-r13p0,
