@@ -1,9 +1,75 @@
+libmali-rk (1.6-2ayufan2) testing; urgency=medium
+
+  * Update to 95c3cee3b78725833e6e7d6f933f397ed86d32b5
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Mon, 18 Mar 2019 11:37:38 +0100
+
+libmali-rk (1.6-1ayufan10) testing; urgency=medium
+
+  * Store all binaries under original name, and always use symlinks
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sun, 04 Mar 2018 20:39:05 +0100
+
+libmali-rk (1.6-1ayufan9) testing; urgency=medium
+
+  * Add -gbm.so into libmali-utgard-450-r7p0 located in /gbm/ subfolder
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sun, 04 Mar 2018 20:10:49 +0100
+
+libmali-rk (1.6-1ayufan8) testing; urgency=medium
+
+  * Fix replaces to allow easy switching between regular, gbm and other variants
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sun, 04 Mar 2018 16:46:28 +0100
+
+libmali-rk (1.6-1ayufan7) testing; urgency=medium
+
+  * Fix gbm variant
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sat, 03 Mar 2018 17:22:20 +0100
+
+libmali-rk (1.6-1ayufan6) testing; urgency=medium
+
+  * Add gbm variant
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sat, 03 Mar 2018 10:30:54 +0100
+
+libmali-rk (1.6-1ayufan5) testing; urgency=medium
+
+  * Extend Provides to include gles2 and bunch of other packages
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Fri, 02 Mar 2018 23:33:29 +0100
+
 libmali-rk (1.6-1) testing; urgency=medium
 
   * mali: utgard: update to r7p0
   * debian: update utgard to r7p0
 
  -- Jacob Chen <jacob2.chen@rock-chips.com>  Fri, 15 Dec 2017 11:06:46 +0800
+
+libmali-rk (1.5-6ayufan6) testing; urgency=medium
+
+  * Fix mali not working (adds missing symlinks)
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Tue, 19 Dec 2017 22:40:20 +0100
+
+libmali-rk (1.5-6ayufan5) testing; urgency=medium
+
+  * Add alias to libmali-rk-utgard-2th-r7p0
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Mon, 18 Dec 2017 18:10:59 +0100
+
+libmali-rk (1.5-6ayufan2) testing; urgency=medium
+
+  * Remove dpkg-cross which fixes compilation error for multi-arch
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sun, 17 Dec 2017 22:01:32 +0100
+
+libmali-rk (1.5-6ayufan1) testing; urgency=medium
+
+  * force a new package compilation
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sun, 17 Dec 2017 12:35:11 +0100
 
 libmali-rk (1.5-6) testing; urgency=medium
 
@@ -16,6 +82,72 @@ libmali-rk (1.5-5) testing; urgency=medium
   * mali: clean and renamed
 
  -- Jacob Chen <jacob2.chen@rock-chips.com>  Wed, 29 Sep 2017 15:29:07 +0000
+
+libmali-rk (1.5-4ayufan12) xenial; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Mon, 11 Sep 2017 11:39:57 +0200
+
+libmali-rk (1.5-4ayufan11) xenial; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Fri, 25 Aug 2017 15:11:22 +0200
+
+libmali-rk (1.5-4ayufan10) xenial; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Thu, 06 Jul 2017 09:00:17 +0200
+
+libmali-rk (1.5-4ayufan9) xenial; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Tue, 04 Jul 2017 19:26:33 +0200
+
+libmali-rk (1.5-4ayufan8) xenial; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Tue, 04 Jul 2017 19:10:38 +0200
+
+libmali-rk (1.5-4ayufan7) xenial; urgency=medium
+
+  * Compile utgard-2th for arm64
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 22:46:26 +0000
+
+libmali-rk (1.5-4ayufan6) xenial; urgency=medium
+
+  * Make utgard-2th links to be executable
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 22:46:26 +0000
+
+libmali-rk (1.5-4ayufan5) xenial; urgency=medium
+
+  * Fix links for utgard-2th
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 22:10:42 +0000
+
+libmali-rk (1.5-4ayufan4) xenial; urgency=medium
+
+  * Add dependencies for utgard
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 21:41:10 +0000
+
+libmali-rk (1.5-4ayufan3) xenial; urgency=medium
+
+  * Fix missing dependencies
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 23:26:12 +0200
+
+libmali-rk (1.5-4ayufan1) xenial; urgency=medium
+
+  * Bump version
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 22:54:40 +0200
 
 libmali-rk (1.5-4) testing; urgency=medium
 
