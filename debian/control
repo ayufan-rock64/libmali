@@ -6,6 +6,11 @@ Build-Depends:
     dpkg-cross,
     cmake,
     dh-exec,
+    libdrm2,
+    libx11-6,
+    libx11-xcb1,
+    libxcb1,
+    libxcb-dri2-0,
 Standards-Version: 3.9.5
 Section: libs
 Homepage: http://www.rock-chips.com/
