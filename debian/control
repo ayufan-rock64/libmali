@@ -11,6 +11,9 @@ Build-Depends:
     libx11-xcb1,
     libxcb1,
     libxcb-dri2-0,
+    libxfixes3,
+    libxext6,
+    libxdamage1,
 Standards-Version: 3.9.5
 Section: libs
 Homepage: http://www.rock-chips.com/

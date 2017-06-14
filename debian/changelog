@@ -17,6 +17,24 @@ libmali-rk (1.5-5) testing; urgency=medium
 
  -- Jacob Chen <jacob2.chen@rock-chips.com>  Wed, 29 Sep 2017 15:29:07 +0000
 
+libmali-rk (1.5-4ayufan6) xenial; urgency=medium
+
+  * Make utgard-2th links to be executable
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 22:46:26 +0000
+
+libmali-rk (1.5-4ayufan5) xenial; urgency=medium
+
+  * Fix links for utgard-2th
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 22:10:42 +0000
+
+libmali-rk (1.5-4ayufan4) xenial; urgency=medium
+
+  * Add dependencies for utgard
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 21:41:10 +0000
+
 libmali-rk (1.5-4ayufan3) xenial; urgency=medium
 
   * Fix missing dependencies
