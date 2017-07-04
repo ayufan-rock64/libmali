@@ -1,3 +1,9 @@
+libmali-rk (1.5-4ayufan9) xenial; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Tue, 04 Jul 2017 19:26:33 +0200
+
 libmali-rk (1.5-4ayufan8) xenial; urgency=medium
 
   * Automated release
