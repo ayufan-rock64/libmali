@@ -18,36 +18,8 @@ CONFIGURE_FILE("${CMAKE_CURRENT_SOURCE_DIR}/pkgconfig/wayland-egl.pc.cmake"
 INSTALL(FILES "${CMAKE_CURRENT_SOURCE_DIR}/include/mali.icd"
 DESTINATION "${CMAKE_INSTALL_SYSCONFDIR}/OpenCL/vendors/")
 
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-midgard-4th-r13p0.so"
-DESTINATION "${CMAKE_INSTALL_LIBDIR}")
-
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-midgard-4th-r9p0.so"
-DESTINATION "${CMAKE_INSTALL_LIBDIR}")
-
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-midgard-r13p0-r0p0.so"
-DESTINATION "${CMAKE_INSTALL_LIBDIR}")
-
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-midgard-r12p0-r0p0.so"
-DESTINATION "${CMAKE_INSTALL_LIBDIR}")
-
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-midgard-r9p0-r1p0.so"
-DESTINATION "${CMAKE_INSTALL_LIBDIR}")
-
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-midgard-r9p0-r0p0.so"
-DESTINATION "${CMAKE_INSTALL_LIBDIR}")
-
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-utgard-2th-r7p0.so"
-DESTINATION "${CMAKE_INSTALL_LIBDIR}")
-
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-utgard-r6p0.so"
+INSTALL(DIRECTORY
+"${CMAKE_CURRENT_SOURCE_DIR}/lib/${CMAKE_LIBRARY_ARCHITECTURE}/"
 DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 
 INSTALL(FILES "${CMAKE_CURRENT_BINARY_DIR}/egl.pc"

@@ -1,4 +1,10 @@
-libmali-rk (1.5-4ayufan6) xenial; urgency=medium
+libmali-rk (1.5-4ayufan7) xenial; urgency=medium
+
+  * Compile utgard-2th for arm64
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 22:46:26 +0000
+
+ libmali-rk (1.5-4ayufan6) xenial; urgency=medium
 
   * Make utgard-2th links to be executable
 
