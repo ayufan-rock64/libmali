@@ -19,11 +19,11 @@ INSTALL(FILES "${CMAKE_CURRENT_SOURCE_DIR}/include/mali.icd"
 DESTINATION "${CMAKE_INSTALL_SYSCONFDIR}/OpenCL/vendors/")
 
 INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/lib32mali-midgard-4th-r13p0.so"
+"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-midgard-4th-r13p0.so"
 DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 
 INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/lib32mali-midgard-4th-r9p0.so"
+"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-midgard-4th-r9p0.so"
 DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 
 INSTALL(FILES
@@ -43,15 +43,7 @@ INSTALL(FILES
 DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 
 INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/aarch64-linux-gnu/libmali-midgard-4th-r9p0.so"
-DESTINATION "${CMAKE_INSTALL_LIBDIR}")
-
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/lib32mali-utgard-2th-r7p0.so"
-DESTINATION "${CMAKE_INSTALL_LIBDIR}")
-
-INSTALL(FILES
-"${CMAKE_CURRENT_SOURCE_DIR}/lib/aarch64-linux-gnu/libmali-midgard-4th-r13p0-wayland.so"
+"${CMAKE_CURRENT_SOURCE_DIR}/lib/arm-linux-gnueabihf/libmali-utgard-2th-r7p0.so"
 DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 
 INSTALL(FILES
