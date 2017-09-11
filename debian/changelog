@@ -17,6 +17,12 @@ libmali-rk (1.5-5) testing; urgency=medium
 
  -- Jacob Chen <jacob2.chen@rock-chips.com>  Wed, 29 Sep 2017 15:29:07 +0000
 
+libmali-rk (1.5-4ayufan12) xenial; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Mon, 11 Sep 2017 11:39:57 +0200
+
 libmali-rk (1.5-4ayufan11) xenial; urgency=medium
 
   * Automated release
