@@ -1,0 +1,5 @@
+pipeline:
+  build:
+    image: ayufan/rock64-build-environment:latest
+    commands:
+    - dpkg-buildpackage -aarm64
