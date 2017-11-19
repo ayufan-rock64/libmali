@@ -57,7 +57,7 @@ Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
 Description: The mali library for Rockchip RK3288(not included RK3288W).
 
 Package: libmali-rk-midgard-t76x-r14p0-r0p0-wayland
-Architecture: armhf arm64
+Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
@@ -71,6 +71,14 @@ Multi-Arch: same
 Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
 Description: The mali library for Rockchip RK3328 (32bit).
+
+Package: libmali-rk-utgard-450-r7p0-wayland
+Architecture: armhf arm64
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa
+Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
+Description: The mali library for Rockchip RK3328 Wayland.
 
 Package: libmali-rk-utgard-400-r7p0
 Architecture: armhf
