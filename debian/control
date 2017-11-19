@@ -14,6 +14,7 @@ Build-Depends:
     libxfixes3,
     libxext6,
     libxdamage1,
+    libwayland-dev
 Standards-Version: 3.9.5
 Section: libs
 Homepage: http://www.rock-chips.com/
