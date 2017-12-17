@@ -3,7 +3,6 @@ Priority: optional
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Build-Depends:
     debhelper (>= 9),
-    dpkg-cross,
     cmake,
     dh-exec,
     libdrm2,
