@@ -5,6 +5,12 @@ libmali-rk (1.6-1) testing; urgency=medium
 
  -- Jacob Chen <jacob2.chen@rock-chips.com>  Fri, 15 Dec 2017 11:06:46 +0800
 
+libmali-rk (1.5-6ayufan5) testing; urgency=medium
+
+  * Add alias to libmali-rk-utgard-2th-r7p0
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Mon, 18 Dec 2017 18:10:59 +0100
+
 libmali-rk (1.5-6ayufan2) testing; urgency=medium
 
   * Remove dpkg-cross which fixes compilation error for multi-arch
