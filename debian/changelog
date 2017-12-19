@@ -5,6 +5,12 @@ libmali-rk (1.6-1) testing; urgency=medium
 
  -- Jacob Chen <jacob2.chen@rock-chips.com>  Fri, 15 Dec 2017 11:06:46 +0800
 
+libmali-rk (1.5-6ayufan6) testing; urgency=medium
+
+  * Fix mali not working (adds missing symlinks)
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Tue, 19 Dec 2017 22:40:20 +0100
+
 libmali-rk (1.5-6ayufan5) testing; urgency=medium
 
   * Add alias to libmali-rk-utgard-2th-r7p0
