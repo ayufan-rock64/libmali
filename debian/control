@@ -35,9 +35,9 @@ Package: libmali-rk-midgard-t86x-r14p0
 Architecture: armhf arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
-Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1,
     libegl1-x11, libgles1, libgles2, libopencl1
@@ -47,9 +47,9 @@ Package: libmali-rk-midgard-t76x-r14p0-r1p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
-Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1,
     libegl1-x11, libgles1, libgles2, libopencl1
@@ -59,9 +59,9 @@ Package: libmali-rk-midgard-t76x-r14p0-r0p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
-Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1,
     libegl1-x11, libgles1, libgles2, libopencl1
@@ -71,9 +71,9 @@ Package: libmali-rk-midgard-t76x-r14p0-r0p0-wayland
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
-Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1,
     libegl1-x11, libgles1, libgles2, libopencl1
@@ -83,10 +83,10 @@ Package: libmali-rk-utgard-450-r7p0
 Architecture: armhf arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1,
     libmali-rk-utgard-2th-r7p0
-Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1,
     libegl1-x11, libgles1, libgles2, libopencl1
@@ -96,9 +96,9 @@ Package: libmali-rk-utgard-450-r7p0-wayland
 Architecture: armhf arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
-Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1,
     libegl1-x11, libgles1, libgles2, libopencl1
@@ -108,9 +108,9 @@ Package: libmali-rk-utgard-400-r7p0
 Architecture: armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Provides: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
-Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1-mesa,
+Conflicts: libegl1-mesa, libegl1, libgles2-mesa, libgbm1, libwayland-egl1,
     libegl1-x11, libgles1, libgles2, libopencl1
 Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1,
     libegl1-x11, libgles1, libgles2, libopencl1

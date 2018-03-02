@@ -1,3 +1,9 @@
+libmali-rk (1.6-1ayufan2) testing; urgency=medium
+
+  * Provide libwayland-egl1 only
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Fri, 02 Mar 2018 23:33:29 +0100
+
 libmali-rk (1.6-1ayufan1) testing; urgency=medium
 
   * Extend Provides to include gles2 and bunch of other packages
