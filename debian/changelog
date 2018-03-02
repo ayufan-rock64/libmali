@@ -1,3 +1,9 @@
+libmali-rk (1.6-1ayufan5) testing; urgency=medium
+
+  * Extend Provides to include gles2 and bunch of other packages
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Fri, 02 Mar 2018 23:33:29 +0100
+
 libmali-rk (1.6-1) testing; urgency=medium
 
   * mali: utgard: update to r7p0
