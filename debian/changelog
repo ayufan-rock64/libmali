@@ -1,3 +1,9 @@
+libmali-rk (1.6-1ayufan7) testing; urgency=medium
+
+  * Fix gbm variant
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sat, 03 Mar 2018 17:22:20 +0100
+
 libmali-rk (1.6-1ayufan6) testing; urgency=medium
 
   * Add gbm variant

@@ -91,8 +91,8 @@ Package: libmali-rk-utgard-450-r7p0-gbm
 Architecture: armhf arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1, libmali-rk-utgard-2th-r7p0
-Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1, libmali-rk-utgard-2th-r7p0
+Provides: libegl1, libgles1, libgles2, libopencl1, libgbm1
+Replaces: libegl1, libgles1, libgles2, libopencl1, libgbm1
 Description: The mali library for Rockchip RK3328 GBM.
 
 Package: libmali-rk-utgard-450-r7p0-wayland
