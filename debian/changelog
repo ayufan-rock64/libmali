@@ -1,3 +1,9 @@
+libmali-rk (1.6-1ayufan6) testing; urgency=medium
+
+  * Add gbm variant
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sat, 03 Mar 2018 10:30:54 +0100
+
 libmali-rk (1.6-1ayufan5) testing; urgency=medium
 
   * Extend Provides to include gles2 and bunch of other packages
