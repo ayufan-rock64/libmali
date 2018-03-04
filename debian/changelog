@@ -1,3 +1,9 @@
+libmali-rk (1.6-1ayufan8) testing; urgency=medium
+
+  * Fix replaces to allow easy switching between regular, gbm and other variants
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sun, 04 Mar 2018 16:46:28 +0100
+
 libmali-rk (1.6-1ayufan7) testing; urgency=medium
 
   * Fix gbm variant
