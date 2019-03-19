@@ -1,3 +1,9 @@
+libmali-rk (1.6-3ayufan3) testing; urgency=medium
+
+  * do not conflict 'libGLESv1_CM.so` with `libglvnd-dev`
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Tue, 19 Mar 2019 08:32:57 +0100
+
 libmali-rk (1.6-3ayufan2) testing; urgency=medium
 
   * fix `libmali-rk-dev`
