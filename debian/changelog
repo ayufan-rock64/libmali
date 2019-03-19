@@ -1,3 +1,13 @@
+libmali-rk (1.6-3ayufan1) testing; urgency=medium
+
+  * do not conflict `libwayland-egl.so` with `libegl1-mesa-dev`
+  * do not conflict `libGLESv2.so` with `libglvnd-dev`
+  * do not conflict `libOpenCL.so` with `ocl-icd-opencl-dev`
+  * do not conflict `libEGL.so` with `libglvnd-dev`
+  * do not conflict `libgbm.so` with `libgbm-dev`
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Tue, 19 Mar 2019 08:07:03 +0100
+
 libmali-rk (1.6-2ayufan2) testing; urgency=medium
 
   * Update to 95c3cee3b78725833e6e7d6f933f397ed86d32b5
