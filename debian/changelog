@@ -1,3 +1,9 @@
+libmali-rk (1.6-3ayufan2) testing; urgency=medium
+
+  * fix `libmali-rk-dev`
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Tue, 19 Mar 2019 08:20:42 +0100
+
 libmali-rk (1.6-3ayufan1) testing; urgency=medium
 
   * do not conflict `libwayland-egl.so` with `libegl1-mesa-dev`
