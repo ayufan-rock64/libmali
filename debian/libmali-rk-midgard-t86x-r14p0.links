@@ -1,6 +1,7 @@
 #! /usr/bin/dh-exec
 usr/lib/${DEB_HOST_MULTIARCH}/libmali-midgard-t86x-r14p0.so usr/lib/${DEB_HOST_MULTIARCH}/libMali.so
 usr/lib/${DEB_HOST_MULTIARCH}/libmali-midgard-t86x-r14p0-gbm.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so
+
 usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libEGL.so.1
 usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libEGL.so.1.0.0
 usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libEGL.so.1.4
@@ -16,5 +17,20 @@ usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libmali.s
 usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libMaliOpenCL.so
 usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libOpenCL.so.1
 usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libOpenCL.so.1.0.0
+
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libEGL.so.1
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libEGL.so.1.0.0
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libEGL.so.1.4
 usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libgbm.so.1
 usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libgbm.so.1.0.0
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libGLESv2.so.2
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libGLESv2.so.2.0
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libGLESv2.so.2.0.0
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libGLESv1_CM.so.1
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libGLESv1_CM.so.1.0.0
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libGLESv1_CM.so.1.1
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libmali.so
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMaliOpenCL.so
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libOpenCL.so.1
+usr/lib/${DEB_HOST_MULTIARCH}/gbm/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/gbm/libOpenCL.so.1.0.0
+
